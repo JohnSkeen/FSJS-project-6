@@ -1,0 +1,50 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1 John Skeen
+
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        .portfolio-bio
+          p
+            | Sup.
+
+          p
+            | The web is an incredible place — the ability to speak its language to build experiences
+            | and control visual outcomes is fascinating to me. But, my familiarity of code and the decision to make it my
+            | schtick has been a fairly new endeavor.
+
+          p
+            | Prior to embarking on my journey to code mastery, I spent 21 years in retail management where I garnered
+            | business, sales and leadership acumen. Then in 2018, I decided to take the plunge and learn something new
+            | — to make coding my passion. I’ve spent the last two years ingesting all that I can about front-end dev,
+            | doing some freelance projects and building a portfolio. Now the iron’s hot and I’m ready to strike.
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        ul
+          li HTML/CSS
+          li SASS
+          li JavaScript
+          li Node.JS
+          li Express
+          li Git
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li 678-779-1841
+          li jskeen@gmail.com
+
+        a.button.expanded(href='https://www.linkedin.com/in/john-skeen-b9736132/' target='_blank') LinkedIn
+        a.button.expanded(href='https://github.com/johnskeen' target='_blank') GitHub
+        a.button.expanded(href='https://twitter.com/johnskeen' target='_blank') Twitter
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back

@@ -1,0 +1,99 @@
+{
+   "projects":[
+      {
+         "id":0,
+         "project_name":"A Random Quote Generator",
+         "description":"Practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+         "technologies":[
+            "HTML",
+            "CSS",
+            "JavaScript"
+         ],
+         "live_link":"http://johnskeen.io/FSJS-project-1/",
+         "github_link":"https://github.com/JohnSkeen/FSJS-project-1",
+         "image_urls":[
+            "/static/img/project-1-small.jpg",
+            "/static/img/project-1-large.jpg",
+            "/static/img/project-1-large-2.jpg",
+            "/static/img/project-1-large-3.jpg"
+         ]
+      },
+      {
+         "id":1,
+         "project_name":"List Pagination and Filtering",
+         "description":"Displaying a long list of items on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to display a handful of items on one page and provide navigation to jump to a list of more items. In this project, I wrote JavaScript to divide a long list into a series of \"pages\" and improve the user experience of a web page.",
+         "technologies":[
+            "HTML",
+            "CSS",
+            "JavaScript"
+         ],
+         "live_link":"http://johnskeen.io/FSJS-project-2/",
+         "github_link":"https://github.com/JohnSkeen/FSJS-project-2",
+         "image_urls":[
+            "/static/img/project-2-small.jpg",
+            "/static/img/project-2-large.jpg",
+            "/static/img/project-2-large-2.jpg",
+            "/static/img/project-2-large-3.jpg"
+         ]
+      },
+      {
+         "id":2,
+         "project_name":"Interactive Form",
+         "description":"Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, I used my skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+         "technologies":[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery"
+         ],
+         "live_link":"http://johnskeen.io/FSJS-project-3/",
+         "github_link":"https://github.com/JohnSkeen/FSJS-project-3",
+         "image_urls":[
+            "/static/img/project-3-small.jpg",
+            "/static/img/project-3-large.jpg",
+            "/static/img/project-3-large-2.jpg",
+            "/static/img/project-3-large-3.jpg"
+         ]
+      },
+      {
+         "id":3,
+         "project_name":"OOP Game Show App",
+         "description":"Created a browser-based, word guessing game: \"Phrase Hunter.\" Using JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
+         "technologies":[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Object Oriented JavaScript",
+            "jQuery"
+         ],
+         "live_link":"http://johnskeen.io/FSJS-project-4/",
+         "github_link":"https://github.com/JohnSkeen/FSJS-project-4",
+         "image_urls":[
+            "/static/img/project-4-small.jpg",
+            "/static/img/project-4-large.jpg",
+            "/static/img/project-4-large-2.jpg",
+            "/static/img/project-4-large-3.jpg"
+         ]
+      },
+      {
+         "id":4,
+         "project_name":"Public API Requests",
+         "description":"Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
+         "technologies":[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Fetch API"
+         ],
+         "live_link":"http://johnskeen.io/FSJS-project-5/",
+         "github_link":"https://github.com/JohnSkeen/FSJS-project-5",
+         "image_urls":[
+            "/static/img/project-5-small.jpg",
+            "/static/img/project-5-large.jpg",
+            "/static/img/project-5-large-2.jpg",
+            "/static/img/project-5-large-3.jpg"
+         ]
+      }
+   ]
+}
