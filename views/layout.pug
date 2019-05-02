@@ -5,32 +5,33 @@ html(class="no-js" lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
-    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
-      .grid-y.grid-padding-x(style='height: 100%;')
-        block sidebar
-          br
-          .cell.shrink
-            img.thumbnail(src='/static/img/portrait.png')
-          .cell.auto
+    .container
+      #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
+        .grid-y.grid-padding-x(style='height: 100%;')
+          block sidebar
+            br
+            .cell.shrink
+              img.thumbnail(src='/static/img/portrait.png')
+            .cell.auto
 
-            h5 John Skeen
+              h5 John Skeen
 
-            p.text-light
-              | In this digital era the medium of choice is the web.  I aim to play a part in it's creation and evolution and am on a learning adventure to achieve this.
+              p.text-light
+                | In this digital era the medium of choice is the web.  I aim to play a part in it's creation and evolution, and am on a learning adventure to achieve this.
 
-            a(href='/about') Learn More →
+              a(href='/about') Learn More →
 
-    .off-canvas-content(data-off-canvas-content='')
-      .title-bar.hide-for-large
-        .title-bar-left
-          button.menu-icon(type='button', data-toggle='my-info')
+      .off-canvas-content(data-off-canvas-content='')
+        .title-bar.hide-for-large
+          .title-bar-left
+            button.menu-icon(type='button', data-toggle='my-info')
 
-          span.title-bar-title John Skeen
-      block content
+            span.title-bar-title John Skeen
+        block content
 
 
 

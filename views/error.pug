@@ -1,10 +1,11 @@
 extends layout
 
 block content
-  section.desk
+  section.error
     h1= `${error.message} - Status: ${error.status}`
     p Woah. Didn't see that one coming!
     a.button-primary-small(href='/') Go Home
+    button#show-stack Click me to see stack trace!
     .paper
       pre.stack-trace= error.stack
     .tear
